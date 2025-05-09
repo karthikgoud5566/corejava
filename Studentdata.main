@@ -1,0 +1,11 @@
+package corejava;
+
+public class StudentData {
+	public static void main(String args[])
+	{
+		Student  s=new Student();
+		s.setStudentDetails("kartrhik", 198, 85.5);
+		System.out.print(s.getStudentDetails());
+	}
+
+}
